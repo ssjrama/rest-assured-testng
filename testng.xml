@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="APITestSuite">
+    <test name="GetAndPostTests">
+        <classes>
+            <class name="jsonSchema.TestJsonSchema" />
+            <class name="test.TestDeleteUser" />
+            <class name="test.TestGetUser" />
+            <class name="test.TestPostUser" />
+        </classes>
+    </test>
+</suite>
