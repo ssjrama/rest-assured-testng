@@ -6,6 +6,7 @@
             <class name="test.TestDeleteUser" />
             <class name="test.TestGetUser" />
             <class name="test.TestPostUser" />
+            <class name="test.TestLogin" />
         </classes>
     </test>
 </suite>
