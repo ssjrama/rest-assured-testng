@@ -3,16 +3,10 @@ package test;
 import config.EnvConfig;
 import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
-import io.restassured.RestAssured;
-import io.restassured.response.Response;
-import org.hamcrest.MatcherAssert;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertNotNull;
 
 public class TestLogin {
     @Test
